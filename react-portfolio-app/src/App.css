@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+:root {
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-dark: rgba(255, 255, 255, 0);
+}
+
+body {
+    font-family: "Roboto Condensed" sans-serif;
+}
+
+
+/* particles */
+
+#tsparticles {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+/* menu links */
+
+nav {
+    z-index: 2;
+}
+
+nav a.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+nav ui li {
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a.active:focus {
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav>li>a:hover {
+    border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.header-wrapper {
+    position: relative;
+    background: url(images/portfolio1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* typed text */
+
+.typed-text {
+    font-size: 2rem;
+    color: var(--primary-orange);
+}
