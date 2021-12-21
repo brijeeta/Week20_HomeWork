@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import particlesOptions from "./particles.json";
 import Navbar from './components/NavBar';
 import Header from './components/Header'
+import AboutMe from './components/AboutMe'
 
 function App() {
     return (
@@ -48,6 +49,7 @@ function App() {
             }} />
             <Navbar />
             <Header />
+            <AboutMe />
         </>
 
     );
