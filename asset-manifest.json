@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Week20_HomeWork/static/css/main.99fe26c6.css",
-    "main.js": "/Week20_HomeWork/static/js/main.48520bad.js",
+    "main.css": "/Week20_HomeWork/static/css/main.46325ca3.css",
+    "main.js": "/Week20_HomeWork/static/js/main.29e22098.js",
+    "static/media/myimage.JPG": "/Week20_HomeWork/static/media/myimage.4df7bf81021d47f26d70.JPG",
+    "static/media/travelblog.png": "/Week20_HomeWork/static/media/travelblog.81d93cf99fc4e08c3577.png",
+    "static/media/ecommerce.png": "/Week20_HomeWork/static/media/ecommerce.dd26ab45a24d010abcfb.png",
+    "static/media/dayplanner.png": "/Week20_HomeWork/static/media/dayplanner.26f33af2a628eea9e2a9.png",
     "static/media/portfolio1.jpg": "/Week20_HomeWork/static/media/portfolio1.9ba27508e6a3114c8be8.jpg",
+    "static/media/weatherdashboard.jpg": "/Week20_HomeWork/static/media/weatherdashboard.b42b28d408831e9b9796.jpg",
+    "static/media/bitcoin.jpg": "/Week20_HomeWork/static/media/bitcoin.291fca07c7d58649d893.jpg",
+    "static/media/codequiz.jpg": "/Week20_HomeWork/static/media/codequiz.49c6c412de5d411a7b6d.jpg",
     "static/media/logo.PNG": "/Week20_HomeWork/static/media/logo.d83f4e08c6d39fc33ee7.PNG",
     "index.html": "/Week20_HomeWork/index.html",
-    "main.99fe26c6.css.map": "/Week20_HomeWork/static/css/main.99fe26c6.css.map",
-    "main.48520bad.js.map": "/Week20_HomeWork/static/js/main.48520bad.js.map"
+    "main.46325ca3.css.map": "/Week20_HomeWork/static/css/main.46325ca3.css.map",
+    "main.29e22098.js.map": "/Week20_HomeWork/static/js/main.29e22098.js.map"
   },
   "entrypoints": [
-    "static/css/main.99fe26c6.css",
-    "static/js/main.48520bad.js"
+    "static/css/main.46325ca3.css",
+    "static/js/main.29e22098.js"
   ]
 }
