@@ -93,7 +93,7 @@ const Portfolio = () => {
 
         const content = (<>
             <img className='portfolio-image-popupbox' src={bitcoinhub} alt="BitCoinHub project" />
-            <p>Bitcoin ub is a front-end web application that combines the Bitcoin APIs  to allow users to find various trends in bitcoin market.</p>
+            <p>Bitcoin hub is a front-end web application that combines the Bitcoin APIs  to allow users to find various trends in bitcoin market.</p>
             <b>Github :</b> <a className='hyper-link' onClick={() => window.open("https://github.com/JenkinsMD/GrpPrj1-Bitcoin", "_blank")}>https://github.com/JenkinsMD/GrpPrj1-Bitcoin</a>
             <br />
             <b>Deployed App :</b> <a className='hyper-link' onClick={() => window.open("https://jenkinsmd.github.io/GrpPrj1-Bitcoin/", "_blank")}>https://jenkinsmd.github.io/GrpPrj1-Bitcoin/</a>
@@ -156,12 +156,13 @@ const Portfolio = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Portfolio</h1>
                 <div className="image-box-wrapper row justify-content-center">
+                    {/* codequiz */}
                     <div className="portfolio-image-box" onClick={openPopupBoxCodequiz}>
                         <img src={codequiz} alt="codequiz project" className="portfolio-image" />
                         <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
-                    {/*  */}
+                    {/* day planner */}
 
                     <div className="portfolio-image-box" onClick={openPopupBoxDayPlanner}>
                         <img src={dayplanner} alt="dayplanner project" className="portfolio-image" />
@@ -169,7 +170,7 @@ const Portfolio = () => {
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
 
-                    {/*  */}
+                    {/* weather dashboard */}
 
                     <div className="portfolio-image-box" onClick={openPopupBoxWeatherdashboard}>
                         <img src={weatherdashboard} alt="weather dashboard project" className="portfolio-image" />
@@ -177,19 +178,20 @@ const Portfolio = () => {
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
 
-                    {/*  */}
+                    {/* bitcoinhub */}
 
                     <div className="portfolio-image-box" onClick={openPopupBoxBitcoinHub}>
                         <img src={bitcoinhub} alt="bitcoinhub project" className="portfolio-image" />
                         <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
-
+                    {/* travelblog */}
                     <div className="portfolio-image-box" onClick={openPopupBoxTravelBlog}>
                         <img src={travelblog} alt=" travel blog project" className="portfolio-image" />
                         <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
+                    {/* readmegen */}
                     <div className="portfolio-image-box" onClick={openPopupBoxReadmeGen}>
                         <img src={readme} alt="Readme generator project" className="portfolio-image" />
                         <div className='overflow'></div>

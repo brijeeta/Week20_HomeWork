@@ -5,7 +5,8 @@
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-light-grey: #c0c0c0;
     --primary-black: #000000;
-    --primary-red: #ff0000
+    --primary-red: #ff0000;
+    --primary-dark-grey: #000000;
 }
 
 body {
@@ -190,4 +191,73 @@ nav ui li {
 
 .hyper-link:hover {
     color: var(--primary-red);
+}
+
+
+/* contacts form */
+
+.contacts {
+    background-color: var(--primary-dark-grey);
+    padding: 3rem 0;
+}
+
+.contacts h1 {
+    color: var(--primary-orange);
+    padding: 1.3rem 0;
+    text-transform: uppercase;
+}
+
+.contacts input,
+.contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: .125rem solid var(--primary-light-grey);
+    border-radius: 0;
+    color: var(--primary-light-grey);
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem !important;
+    padding-left: 0;
+}
+
+.contacts .container {
+    padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+    background: transparent;
+    color: var(--primary-orange);
+    border-bottom: .125rem solid var(--primary-light-grey);
+}
+
+.contacts textarea {
+    height: 10rem !important;
+    margin: 2.5rem 0;
+}
+
+.contact-btn {
+    margin: 1rem 0 0 0;
+    width: 20%;
+}
+
+.contact-btn:hover {
+    background-color: var(--primary-orange);
+}
+
+
+/* media */
+
+@media(max-width:768px) {
+    .contacts .container {
+        padding: 0 1rem;
+    }
+}
+
+.footer {
+    background-color: var(--primary-dark-grey);
+    color: var(--primary-orange);
 }

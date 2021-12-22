@@ -4,11 +4,13 @@ import Particles from "react-tsparticles";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import particlesOptions from "./particles.json";
+// import particlesOptions from "./particles.json";
 import Navbar from './components/NavBar';
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -52,6 +54,8 @@ function App() {
             <Header />
             <AboutMe />
             <Portfolio />
+            <ContactForm />
+            <Footer />
         </>
 
     );
