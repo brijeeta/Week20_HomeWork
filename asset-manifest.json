@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Week20_HomeWork/static/css/main.46325ca3.css",
-    "main.js": "/Week20_HomeWork/static/js/main.29e22098.js",
+    "main.css": "/Week20_HomeWork/static/css/main.bf0da100.css",
+    "main.js": "/Week20_HomeWork/static/js/main.5c368f44.js",
     "static/media/myimage.JPG": "/Week20_HomeWork/static/media/myimage.4df7bf81021d47f26d70.JPG",
     "static/media/travelblog.png": "/Week20_HomeWork/static/media/travelblog.81d93cf99fc4e08c3577.png",
     "static/media/ecommerce.png": "/Week20_HomeWork/static/media/ecommerce.dd26ab45a24d010abcfb.png",
@@ -12,11 +12,11 @@
     "static/media/codequiz.jpg": "/Week20_HomeWork/static/media/codequiz.49c6c412de5d411a7b6d.jpg",
     "static/media/logo.PNG": "/Week20_HomeWork/static/media/logo.d83f4e08c6d39fc33ee7.PNG",
     "index.html": "/Week20_HomeWork/index.html",
-    "main.46325ca3.css.map": "/Week20_HomeWork/static/css/main.46325ca3.css.map",
-    "main.29e22098.js.map": "/Week20_HomeWork/static/js/main.29e22098.js.map"
+    "main.bf0da100.css.map": "/Week20_HomeWork/static/css/main.bf0da100.css.map",
+    "main.5c368f44.js.map": "/Week20_HomeWork/static/js/main.5c368f44.js.map"
   },
   "entrypoints": [
-    "static/css/main.46325ca3.css",
-    "static/js/main.29e22098.js"
+    "static/css/main.bf0da100.css",
+    "static/js/main.5c368f44.js"
   ]
 }
