@@ -151,6 +151,7 @@ const Portfolio = () => {
         fadeIn: true,
         fadeInSpeed: 500
     }
+
     return (
         <div id='portfolio' className='portfolio-wrapper'>
             <div className="container">
@@ -179,7 +180,6 @@ const Portfolio = () => {
                     </div>
 
                     {/* bitcoinhub */}
-
                     <div className="portfolio-image-box" onClick={openPopupBoxBitcoinHub}>
                         <img src={bitcoinhub} alt="bitcoinhub project" className="portfolio-image" />
                         <div className='overflow'></div>

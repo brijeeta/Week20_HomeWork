@@ -17,5 +17,5 @@ fontawesome
 
 ###  app link
 
-*[Deployed App link](https://brijeeta.github.io/Week20_Homework/)
+* [Deployed App link](https://brijeeta.github.io/Week20_Homework/)
 * [GitHub Repository](https://github.com/brijeeta/Week20_HomeWork/)
