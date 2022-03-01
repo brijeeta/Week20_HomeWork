@@ -156,18 +156,16 @@ const Portfolio = () => {
         <div id='portfolio' className='portfolio-wrapper'>
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Portfolio</h1>
-                <div className="image-box-wrapper row justify-content-center">
+                <div className="image-box-wrapper ">
                     {/* codequiz */}
                     <div className="portfolio-image-box" onClick={openPopupBoxCodequiz}>
                         <img src={codequiz} alt="codequiz project" className="portfolio-image" />
-                        <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
                     {/* day planner */}
 
                     <div className="portfolio-image-box" onClick={openPopupBoxDayPlanner}>
                         <img src={dayplanner} alt="dayplanner project" className="portfolio-image" />
-                        <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
 
@@ -175,26 +173,22 @@ const Portfolio = () => {
 
                     <div className="portfolio-image-box" onClick={openPopupBoxWeatherdashboard}>
                         <img src={weatherdashboard} alt="weather dashboard project" className="portfolio-image" />
-                        <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
 
                     {/* bitcoinhub */}
                     <div className="portfolio-image-box" onClick={openPopupBoxBitcoinHub}>
                         <img src={bitcoinhub} alt="bitcoinhub project" className="portfolio-image" />
-                        <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
                     {/* travelblog */}
                     <div className="portfolio-image-box" onClick={openPopupBoxTravelBlog}>
                         <img src={travelblog} alt=" travel blog project" className="portfolio-image" />
-                        <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
                     {/* readmegen */}
                     <div className="portfolio-image-box" onClick={openPopupBoxReadmeGen}>
                         <img src={readme} alt="Readme generator project" className="portfolio-image" />
-                        <div className='overflow'></div>
                         <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
                     </div>
                 </div>

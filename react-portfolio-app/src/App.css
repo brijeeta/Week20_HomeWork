@@ -130,8 +130,10 @@ nav ui li {
     padding: 3rem 0;
 }
 
-
-/* .image-box-wrapper {} */
+.image-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .portfolio-image {
     width: 15rem;
@@ -242,10 +244,11 @@ nav ui li {
 .contact-btn {
     margin: 1rem 0 0 0;
     width: 20%;
+    background-color: var(--primary-orange);
 }
 
 .contact-btn:hover {
-    background-color: var(--primary-orange);
+    background-color: rgb(175, 105, 25);
 }
 
 
